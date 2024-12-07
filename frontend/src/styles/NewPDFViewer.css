@@ -1,0 +1,67 @@
+.viewer-container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Full window height */
+    overflow: hidden;
+  }
+  
+  .pdf-viewer {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ccc;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .chat-notes-container {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+  
+  .notes-making-container form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .notes-making-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .notes-making-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .notes-making-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .prevnotes-container {
+    margin-top: 20px;
+  }
+  
+  .prevnotes-container li {
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  

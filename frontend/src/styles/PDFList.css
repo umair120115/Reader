@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pdf-list-container {
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Table Styling */
+  .pdf-table {
+    margin-top: 20px;
+    font-size: 16px;
+    border-collapse: collapse;
+  }
+  
+  .pdf-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .pdf-table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .pdf-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .open-btn,
+  .delete-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .open-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .open-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* No Data Message */
+  .no-data {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  
